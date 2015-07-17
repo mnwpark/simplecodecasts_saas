@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resource :contacts
+  
   get '/about' => 'pages#about'
   
   root 'pages#home'
